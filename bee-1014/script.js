@@ -1,4 +1,4 @@
-// ÁREA
+// DISTÂNCIA PERCORRIDA POR KM/L
 
 var input = require('fs').readFileSync('stdin', 'utf8');
 
