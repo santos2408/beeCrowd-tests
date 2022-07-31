@@ -24,6 +24,8 @@ const getNecessaryAmount = (quantidade, nota, currency) => {
   console.log(`${quantidade} ${currency}(s) de R$ ${nota.toFixed(2)}`)
 }
 
+console.log(576.73 % 100)
+
 console.log('NOTAS:')
 bills.forEach(bill => {
   const billsAmount = Math.floor(value / bill)
